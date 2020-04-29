@@ -13,7 +13,10 @@ SERVER_ID = ''                  #add the appropriate id server
 INFO = {
     "category": '',
     "description": "",
-    "criticality": '',          #(ex: 'criticality_low, criticality_medium, etc')
+    'environment': {'availability_requirement': '',
+                    'confidentiality_requirement': '',
+                    'integrity_requirement': '',
+                    'name': ''},
     "deploying_period": "",
     "ignoring_policy": "",
     "compliance_groups": [],    # An array of of the compliance groups IDs you want to set on your

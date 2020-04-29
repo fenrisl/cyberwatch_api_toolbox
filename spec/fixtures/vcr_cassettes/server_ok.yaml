@@ -7,54 +7,25 @@ interactions:
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - CyberWatch APIAuth-HMAC-SHA256 zYJ0sI0f+bsPZtvaP1949kCnMFVNeex6emLTixedeGg=:va3TXiIwLD+znW+SED+wl8+5DYacTa2lLRmvnPlSPmI=
+      - CyberWatch APIAuth-HMAC-SHA256 O/pAkZcvlyERCdyg837gLPHHFoDkj1Iyjjmx4kANIJw=:Xq0bNSgI7ClXfYkAW/6DlHMQrcV0vuSJzEoJzrWgU20=
       Connection:
       - keep-alive
       Date:
-      - Wed, 04 Dec 2019 15:39:04 GMT
+      - Wed, 29 Apr 2020 14:40:11 GMT
       User-Agent:
-      - python-requests/2.22.0
+      - python-requests/2.23.0
     method: GET
-    uri: https://localhost/api/v3/servers/3
+    uri: https://localhost/api/v3/servers/1
   response:
     body:
       string: !!binary |
-        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
+        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
     headers:
       Cache-Control:
       - no-store, must-revalidate, private, max-age=0
@@ -65,7 +36,7 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 04 Dec 2019 15:39:07 GMT
+      - Wed, 29 Apr 2020 14:40:11 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
@@ -82,17 +53,17 @@ interactions:
       - noopen
       X-Frame-Options:
       - SAMEORIGIN
-      X-Miniprofiler-Ids:
-      - 9fphe9fr4mb8gu74x9ar,41wwfroq7cbo515k1s25,zd21vyjl3ecjtwle01qg,2qsafp0q8zhwz3wxyu8m,69k3t5jjcmscmjigu87z,lgxq5n7e4fjirzo3f3b9,x54fdt1bhmp2he6t68zf,j81y6yk8oqautsw2f2lf
-      X-Miniprofiler-Original-Cache-Control:
+      X-MiniProfiler-Ids:
+      - czcqffto94qhnqk2ti9s,lwgdxh970lub7nebwcgr,v3des1wzz9mri5ossjxd,u7g25n7hu1yalq79j2fy,wx2rs038ms6wco2kehdg
+      X-MiniProfiler-Original-Cache-Control:
       - max-age=0, private, must-revalidate
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 52662225-bf5f-4ffb-85ee-11796093b74e
+      - 469d61ae-4071-47f3-9374-cc0711f28704
       X-Runtime:
-      - '3.385264'
-      X-Xss-Protection:
+      - '0.200693'
+      X-XSS-Protection:
       - 1; mode=block
     status:
       code: 200

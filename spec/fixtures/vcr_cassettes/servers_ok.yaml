@@ -1,35 +1,35 @@
 interactions:
 - request:
-    body: '{"page": "1", "reboot_required": "false"}'
+    body: '{"page": "1", "reboot_required": "false", "per_page": 100}'
     headers:
       Accept:
       - '*/*'
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - CyberWatch APIAuth-HMAC-SHA256 zYJ0sI0f+bsPZtvaP1949kCnMFVNeex6emLTixedeGg=:XGypqArO/98iIGI3hKPL9FE2v27qoFF4e3255AwAjjs=
+      - CyberWatch APIAuth-HMAC-SHA256 O/pAkZcvlyERCdyg837gLPHHFoDkj1Iyjjmx4kANIJw=:igVelaJpcfSi4nHsdrDyIXOttTCZKqtwA14Uv4Dhwco=
       Connection:
       - keep-alive
       Content-Length:
-      - '41'
+      - '58'
       Content-Type:
       - application/json
       Date:
-      - Fri, 06 Dec 2019 15:11:00 GMT
+      - Wed, 29 Apr 2020 14:40:10 GMT
       User-Agent:
-      - python-requests/2.22.0
+      - python-requests/2.23.0
     method: GET
     uri: https://localhost/api/v3/servers
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA22RS2/bMBCE/0qw10jCklYUh8ecA/RQt5fAIBhpYxOlSJWPIEHg/96VZOTZI2eW
-        M9+S969gB1DXFRxDyt6MBAoeyUebXP3bxlyMuw3PUMFAqY92yjZ4UL44V4EzKes+jGPxtjerAxLF
-        TS1kjd1OdAq3CkWDiJcoFCLnRHoIIetIf4uNxN2PxiWqwBzIZ/1EMa05m0Ys02PIpO3EiriWjcQG
-        F6NMg8mUuL74DAorWGJN/oKwUe2NklefEHiPzMDO5hee/nDSIw22jPPIE2njPYf3NDLYxyJelQ4h
-        zncTRSZeIonV4Xs/PwGqq82n/pRNLunt+vyEk7OG4ysIrL/CH5rTywNXFi222OquZfP8P78W/UJs
-        G2wv7nY/2TGxP7LzvO3WSQpuAZGbGttadjuUMwjiCiLPIMcQs/5PKnv5ZZrVH0mp1YFTBYcYysSE
-        93te+Uzdk36XT/t/ZL9UuVICAAA=
+        H4sIAAAAAAAAA32Ry07DMBBFf6XylrRy0igEL1mDWBDYVFXkJtPWwrGDH1Grqv/OOCF9QEHyau7c
+        M3fGiwMRNWFxRLbaOsUbIIysQRlh5fRdGOe5fNQ7EpEabGVE64RWhCkvZUQkt66sdNN4JSo+KCSh
+        CZ3SdJo8FHHG5jmLkxml9I4mjFLkGFhp7UoDn14YwNlrLi1ExLc1d2CR55UjjEak7+PukpkX8ZzF
+        lKXxFbPqoORKobOCBpS7pGAw2GizR4wF04EJ/QawWv+Aj4Hp/RXcOu68PdnDwq0UHPER0Vg/kA8I
+        dL/Ckb6Mc5qWWYri9zXf+vokzmc0nTwVr6hwU21R2eXZ0AlaDkHmfZCs6Gfjuw6y1caVN6iouX0b
+        qi+WsUEhR8SqThitwkVCzPDRySnWM9TCN+EYWq1FjT2CS+H2488Mrv/UshkRQuGNzW/zzfrZxjsu
+        JF+JG2P/kkYzbrcx2rd4/8Uy7DD8SQXluXxcfgEFi89x3gIAAA==
     headers:
       Cache-Control:
       - no-store, must-revalidate, private, max-age=0
@@ -40,7 +40,7 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 06 Dec 2019 15:11:02 GMT
+      - Wed, 29 Apr 2020 14:40:11 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
@@ -57,23 +57,23 @@ interactions:
       - noopen
       X-Frame-Options:
       - SAMEORIGIN
-      X-Miniprofiler-Ids:
-      - ymh7q97ebc1ad6r41mw8,1j3le7cwg3herrm4b53d,yy85e24dr9s5h3bwzf1j,tum7jvnpfvl180rocjig,z2xxuni74hkgzmsjqyp5
-      X-Miniprofiler-Original-Cache-Control:
+      X-MiniProfiler-Ids:
+      - wx2rs038ms6wco2kehdg,lwgdxh970lub7nebwcgr,v3des1wzz9mri5ossjxd,u7g25n7hu1yalq79j2fy
+      X-MiniProfiler-Original-Cache-Control:
       - max-age=0, private, must-revalidate
       X-Page:
       - '1'
       X-Per-Page:
-      - '25'
+      - '100'
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 73aa102a-d8d4-475a-b898-2bf66ab39e4b
+      - 17e00b79-acb2-4b87-9c61-aba4b7289854
       X-Runtime:
-      - '1.513547'
+      - '0.405338'
       X-Total:
       - '1'
-      X-Xss-Protection:
+      X-XSS-Protection:
       - 1; mode=block
     status:
       code: 200

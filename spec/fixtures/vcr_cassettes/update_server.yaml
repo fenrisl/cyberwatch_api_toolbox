@@ -7,7 +7,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - CyberWatch APIAuth-HMAC-SHA256 zYJ0sI0f+bsPZtvaP1949kCnMFVNeex6emLTixedeGg=:o/fZKOzHyhREUbTKnEBRq3fUKM96uFp11iNr3AxUZm8=
+      - CyberWatch APIAuth-HMAC-SHA256 O/pAkZcvlyERCdyg837gLPHHFoDkj1Iyjjmx4kANIJw=:1wUnQksoOu9Wx44DlTPHyWttM4bXZoxl79czri4+hms=
       Connection:
       - keep-alive
       Content-Length:
@@ -15,22 +15,21 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 04 Dec 2019 16:11:34 GMT
+      - Wed, 29 Apr 2020 14:40:47 GMT
       User-Agent:
-      - python-requests/2.22.0
+      - python-requests/2.23.0
     method: PATCH
-    uri: https://localhost/api/v3/servers/6
+    uri: https://localhost/api/v3/servers/1
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA42SQW8bIRCF/0pEjl2vgN06NremVU+VcojbSxQhsjuxUVnYwmAlsvLfO8talh3l
-        EGkP7LzhvW+AA7M9U8uK7UJCbwZgij2Djza5xR8bMRt3G15YxXpIXbQj2uCZ8tm5ijmTUHdhGLK3
-        nZkVJrlYL4Rc8HYjbpQQiouac/6F04qTT4SnEFBH+JdtBMp+Ni5BxcwWPOo9xDT7NLUo3UNA0Hak
-        iriRtVjXvAh57A1CovjskSlesWJr8Byh2VBqs1ZNc4FAcyABO4uv1H32pwfobR6mlj1o4z2ZdzAQ
-        2HkQjQrbEKe9CSIRF0ugav8uvxwBpX5tL/ITGszptF3Ps2jrLZIaSDmwvzD55ycKzVqseKuXLYnH
-        G/pd6ldiVfP26tfmnhQTux0pL6vl3AnBFRTZEMdCLjdcUjp9M4o8ouxCRP2BK2n4Ok7Vu6TUrLC3
-        im1jyCMRPhzKwxHyxDTG0OeuvIIPX0sXXIjUdy3kt5/fb8nsaNGcLH7AHlwYpwP/pMfjVBtGZw1d
-        lD7BPb79B9XB1IPYAgAA
+        H4sIAAAAAAAAA32Ry07DMBBFf6XylrSy0ygEL1mDWBDYIBS5ybS1cOzgR9Sq6r8zbkgfUJC8mjv3
+        zJ3xjsiGcJaQtXFeixYIJ0vQVjo1fZXWB6HuzYYkpAFXW9l5aTThOiiVECWcr2rTtkHLWgwKSWlK
+        pzSbpncly/m84CydUUpvaMopRY6FhTG+svAZpAWcvRTKQUJC1wgPDnlBe8JpQg59wp8zi5LNOaM8
+        YxfMuodKaI3OGlrQ/pyCwWBl7BYxDmwPNvZbwGrzAz4GprcXcOeFD+5ojwt3SgrEJ8RgfUc+INLD
+        AkeGihU0q/IMxe9rvhzqE1bMaDZ5KJ9REbZeo7Ip8qETjBqCzA9B8vIwG99lkLWxvrpCRc1vu1h9
+        cpwPCtkjVvfSGh0vEmPGj06PsR6hkaGNxzB6KRvskUJJvx1/ZnD9p1btiJAab2x/m6/WTzbRC6nE
+        Ql4Z+5c0mnG7lTWhw/u/vccdhj+poTqV9181gagK3AIAAA==
     headers:
       Cache-Control:
       - no-store, must-revalidate, private, max-age=0
@@ -41,7 +40,7 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 04 Dec 2019 16:11:34 GMT
+      - Wed, 29 Apr 2020 14:40:47 GMT
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
@@ -58,17 +57,17 @@ interactions:
       - noopen
       X-Frame-Options:
       - SAMEORIGIN
-      X-Miniprofiler-Ids:
-      - tf2defwxr0qybhuvpkgr,cgxvh41twq5o71s03odf,wtp5hfen2ckry4ynxv2s
-      X-Miniprofiler-Original-Cache-Control:
+      X-MiniProfiler-Ids:
+      - 1ydaiotjimw6vb7j5l44,lwgdxh970lub7nebwcgr,v3des1wzz9mri5ossjxd,u7g25n7hu1yalq79j2fy,wx2rs038ms6wco2kehdg,czcqffto94qhnqk2ti9s,nc0rnm4oimy18bi9ddad,5a1c24xjfrdnmonp4u3r,60c03wmagyoxsritiw0d
+      X-MiniProfiler-Original-Cache-Control:
       - max-age=0, private, must-revalidate
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 6f50f444-fbb6-4c92-b797-1afafc2292d3
+      - 7db71d0e-f55e-44c5-a70d-c3f2593eded7
       X-Runtime:
-      - '0.225983'
-      X-Xss-Protection:
+      - '0.136888'
+      X-XSS-Protection:
       - 1; mode=block
     status:
       code: 200

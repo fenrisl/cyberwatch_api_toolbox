@@ -307,8 +307,8 @@ Send a DELETE request `/api/v3/hosts/{HOST_ID}` to delete a host.
 | applications              | Object        | List of the computer's applications|                                                  |
 | boot_at                   | Date          | Date of the computer boot         | 2016-05-30T09:54:58.000+02:00                     |
 | category                  | String        | Computer's category               | server                                            |
-| created_at                | Date          | Date of the computer creation     | 2019-06-26T09:46:58.000+02:00
-| criticality               | String        | Computer's criticality            | criticality_medium                                |
+| created_at                | Date          | Date of the computer creation     | 2019-06-26T09:46:58.000+02:00                     |
+| environement              | Object        | Computer's environement            | [Environment](#Environment)                          |
 | cve_announcements         | Object        | List of CVEs affecting the computer| [Cve](#Cve)                                      |
 | cve_announcements_count   | Int           | Number of CVEs                    | 3                                                 |    
 | deploying_period          | Object        | Computer's deploying period       | [Deploying Period](#Deploying-period)             |
@@ -325,6 +325,17 @@ Send a DELETE request `/api/v3/hosts/{HOST_ID}` to delete a host.
 | updates                   | Object        | Available updates for the computer| [Update](#Update)                                 |
 | updates_count             | Int           | Number of available updates for the computer| 3                                       |
 | compliance_groups         | Object        | Computer's compliance groups      | [Group](#Group)                                   |
+
+
+### Environment
+
+| Attribute                 | Type          | Description                       | Example of possible value                         |
+|---------------------------|:-------------:|:---------------------------------:|---------------------------------------------------|
+| id                        | String (hash) | Unique id of the environment      | 2                                                 |
+| name                      | String        | Name of the environement          |Medium                                             |
+| confidentiality_requirement| String       | confidentiality requirement of environment| confidentiality_requirement_medium        |
+| integrity_requirement     | String        |integrity requirement of environment|integrity_requirement_medium                      |
+| availability_requirement  | String        | availability_requirement_medium of environment| availability_requirement_medium       |
 
 ### Group
 
