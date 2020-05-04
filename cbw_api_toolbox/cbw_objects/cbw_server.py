@@ -16,10 +16,12 @@ class CBWCve:
                  cve_code="",
                  cvss="",
                  cvss_v3="",
+                 cvss_custom="",
                  level="",
                  score="",
                  score_v2="",
                  score_v3="",
+                 score_custom="",
                  last_modified="",
                  published="",
                  updated_at="",
@@ -31,9 +33,11 @@ class CBWCve:
         self.cve_code = cve_code
         self.cvss_v2 = cvss
         self.cvss_v3 = cvss_v3
+        self.cvss_custom = cvss_custom
         self.score = score
         self.score_v2 = score_v2
         self.score_v3 = score_v3
+        self.score_custom = score_custom
         self.level = level
         self.last_modified = last_modified
         self.published = published
@@ -49,7 +53,6 @@ class CBWServer:
 
     def __init__(self,
                  id,  # pylint: disable=redefined-builtin
-                 agent_version="",
                  applications=None,
                  boot_at="",
                  category="",
@@ -74,7 +77,6 @@ class CBWServer:
                  updates_count=0,
                  **kwargs): # pylint: disable=unused-argument
         self.id = id  # pylint: disable=invalid-name
-        self.agent_version = agent_version
         self.applications = [CBWParser().parse(CBWPackage, application) for application in
                              applications] if applications else []
         self.boot_at = boot_at
