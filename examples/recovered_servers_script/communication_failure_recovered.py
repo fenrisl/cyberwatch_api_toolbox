@@ -62,7 +62,7 @@ def find_communication_failure_servers(servers):
         for server in servers:
             if server.status == "server_update_comm_fail":
                 json.dump({"id": server.id}, file)
-                file.write(os.linesep)
+                file.write('\n')
 
 
 def find_recovered_servers(client):
@@ -83,13 +83,15 @@ def find_recovered_servers(client):
 
 
 def build_server_list(client, diff):
-    """Fetch each server that recovered to help build the email report"""
+    "Fetch each server that recovered to help build the email report"
     print("INFO: Fetching each server not in 'Communication failure' anymore...")
     servers = []
     for server in diff:
-        servers.append(client.server(str(server["id"])))
-    return servers
-
+        if client.server(str(server["id"])) is None:
+            continue
+        else:
+            servers.append(client.server(str(server["id"])))
+            return servers
 
 def create_body_html(client, server_list):
     """Make an HTML list from server list for email"""
