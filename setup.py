@@ -5,11 +5,13 @@ setup(
     description='CyberWatch Api Tools.',
     long_description=open('README.md').read().strip(),
     long_description_content_type="text/markdown",
-    version='1.1.2',
+    version='1.2.2',
     author='CyberWatch SAS',
     author_email='support-it+api@cyberwatch.fr',
     license='MIT',
     url='https://github.com/Cyberwatch/cyberwatch_api_toolbox',
+    project_urls =
+        Documentation = https://flask.palletsprojects.com/
     py_modules=['cbw-api-toolbox'],
     zip_safe=False,
     packages=['cbw_api_toolbox', 'cbw_api_toolbox.cbw_objects'],
