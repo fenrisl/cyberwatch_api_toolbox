@@ -9,7 +9,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - CyberWatch APIAuth-HMAC-SHA256 zYJ0sI0f+bsPZtvaP1949kCnMFVNeex6emLTixedeGg=:1z/xQvJ1TUqb69GUfjigCgqYwl+Tl5Z5lAPTSDC+D28=
+      - CyberWatch APIAuth-HMAC-SHA256 dEJijBfLnJ6OBIqV8SXvSsFhY1d7RlH7wRaUiy4ESiE=:KkDDRSONWk5pv54H2MgPihD3glZKCE+a1Cv+nrvYLQA=
       Connection:
       - keep-alive
       Content-Length:
@@ -17,48 +17,46 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 06 Dec 2019 15:47:19 GMT
+      - Tue, 02 Feb 2021 15:47:54 GMT
       User-Agent:
       - python-requests/2.22.0
     method: POST
     uri: https://localhost/api/v3/remote_accesses
   response:
     body:
-      string: '{"id":33,"type":"CbwRam::RemoteAccess::Ssh::WithPassword","address":"10.0.2.15","port":22,"is_valid":null,"last_error":null,"server_id":null,"node_id":1}'
+      string: '{"id":1,"type":"CbwRam::RemoteAccess::Ssh::WithPassword","address":"10.0.2.15","port":22,"is_valid":null,"last_error":null,"server_id":null,"node_id":1}'
     headers:
       Cache-Control:
-      - no-store, must-revalidate, private, max-age=0
+      - max-age=0, private, must-revalidate
       Connection:
       - keep-alive
-      Content-Length:
-      - '153'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 06 Dec 2019 15:47:20 GMT
+      - Tue, 02 Feb 2021 15:47:55 GMT
+      ETag:
+      - W/"6bbee6f1d4b950ab9eb0ad8e33bc57a3"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - nginx
-      Set-Cookie:
-      - __profilin=p%3Dt; path=/; secure; HttpOnly
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept
       X-Content-Type-Options:
       - nosniff
       X-Download-Options:
       - noopen
       X-Frame-Options:
       - SAMEORIGIN
-      X-Miniprofiler-Ids:
-      - uq8tmzut9bfj2z8xi4ww
-      X-Miniprofiler-Original-Cache-Control:
-      - max-age=0, private, must-revalidate
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - e8d759ba-5370-42b5-b0a6-7c566d545bf3
+      - 0c19f733-d780-4ab6-bc20-79d43f28c6b0
       X-Runtime:
-      - '0.709515'
-      X-Xss-Protection:
+      - '0.331763'
+      X-XSS-Protection:
       - 1; mode=block
     status:
       code: 201
@@ -74,7 +72,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - CyberWatch APIAuth-HMAC-SHA256 zYJ0sI0f+bsPZtvaP1949kCnMFVNeex6emLTixedeGg=:1LawOvr9D8T5lRL7WfldioQDZryyqPwstTL2spFp6zw=
+      - CyberWatch APIAuth-HMAC-SHA256 dEJijBfLnJ6OBIqV8SXvSsFhY1d7RlH7wRaUiy4ESiE=:+HBBxPFGvTyfVIwA4EW7PKQ3T2su5kDZVqd/WM76wys=
       Connection:
       - keep-alive
       Content-Length:
@@ -82,48 +80,46 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 06 Dec 2019 15:47:20 GMT
+      - Tue, 02 Feb 2021 15:47:55 GMT
       User-Agent:
       - python-requests/2.22.0
     method: POST
     uri: https://localhost/api/v3/remote_accesses
   response:
     body:
-      string: '{"id":34,"type":"CbwRam::RemoteAccess::Ssh::WithPassword","address":"server02.example.com","port":22,"is_valid":null,"last_error":null,"server_id":null,"node_id":1}'
+      string: '{"id":2,"type":"CbwRam::RemoteAccess::Ssh::WithPassword","address":"server02.example.com","port":22,"is_valid":null,"last_error":null,"server_id":null,"node_id":1}'
     headers:
       Cache-Control:
-      - no-store, must-revalidate, private, max-age=0
+      - max-age=0, private, must-revalidate
       Connection:
       - keep-alive
-      Content-Length:
-      - '164'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 06 Dec 2019 15:47:21 GMT
+      - Tue, 02 Feb 2021 15:47:55 GMT
+      ETag:
+      - W/"1feb56974d0bf6a5b28efce52b0e718e"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - nginx
-      Set-Cookie:
-      - __profilin=p%3Dt; path=/; secure; HttpOnly
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept
       X-Content-Type-Options:
       - nosniff
       X-Download-Options:
       - noopen
       X-Frame-Options:
       - SAMEORIGIN
-      X-Miniprofiler-Ids:
-      - 894js8ieng85fyrtmy7q,uq8tmzut9bfj2z8xi4ww
-      X-Miniprofiler-Original-Cache-Control:
-      - max-age=0, private, must-revalidate
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - 20053ddb-482b-48c0-bfd0-c2e89129cfc7
+      - df431321-e3b7-4a1c-a7c6-e8ce137cdaa7
       X-Runtime:
-      - '0.604894'
-      X-Xss-Protection:
+      - '0.225877'
+      X-XSS-Protection:
       - 1; mode=block
     status:
       code: 201
@@ -138,7 +134,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate
       Authorization:
-      - CyberWatch APIAuth-HMAC-SHA256 zYJ0sI0f+bsPZtvaP1949kCnMFVNeex6emLTixedeGg=:Zge+w6JdMm6B3gozBqGF8qhgH0STpXxKmdui5U4qs5g=
+      - CyberWatch APIAuth-HMAC-SHA256 dEJijBfLnJ6OBIqV8SXvSsFhY1d7RlH7wRaUiy4ESiE=:+HBBxPFGvTyfVIwA4EW7PKQ3T2su5kDZVqd/WM76wys=
       Connection:
       - keep-alive
       Content-Length:
@@ -146,48 +142,46 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 06 Dec 2019 15:47:21 GMT
+      - Tue, 02 Feb 2021 15:47:55 GMT
       User-Agent:
       - python-requests/2.22.0
     method: POST
     uri: https://localhost/api/v3/remote_accesses
   response:
     body:
-      string: '{"id":35,"type":"CbwRam::RemoteAccess::Ssh::WithPassword","address":"server01.example.com","port":22,"is_valid":null,"last_error":null,"server_id":null,"node_id":1}'
+      string: '{"id":3,"type":"CbwRam::RemoteAccess::Ssh::WithPassword","address":"server01.example.com","port":22,"is_valid":null,"last_error":null,"server_id":null,"node_id":1}'
     headers:
       Cache-Control:
-      - no-store, must-revalidate, private, max-age=0
+      - max-age=0, private, must-revalidate
       Connection:
       - keep-alive
-      Content-Length:
-      - '164'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 06 Dec 2019 15:47:22 GMT
+      - Tue, 02 Feb 2021 15:47:55 GMT
+      ETag:
+      - W/"75e7a4872dad5b48e178637246f90c1e"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
       - nginx
-      Set-Cookie:
-      - __profilin=p%3Dt; path=/; secure; HttpOnly
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept
       X-Content-Type-Options:
       - nosniff
       X-Download-Options:
       - noopen
       X-Frame-Options:
       - SAMEORIGIN
-      X-Miniprofiler-Ids:
-      - dkce64eh7kfxpu18ynga,uq8tmzut9bfj2z8xi4ww,894js8ieng85fyrtmy7q
-      X-Miniprofiler-Original-Cache-Control:
-      - max-age=0, private, must-revalidate
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - bf62ed03-a808-4ce0-b978-fa56c16d3b25
+      - 59f2790a-67b2-4673-ab60-ce9863d886f8
       X-Runtime:
-      - '0.735220'
-      X-Xss-Protection:
+      - '0.226838'
+      X-XSS-Protection:
       - 1; mode=block
     status:
       code: 201

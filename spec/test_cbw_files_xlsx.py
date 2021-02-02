@@ -27,11 +27,11 @@ class TestCBWXlsx:
         file_xlsx = "spec/fixtures/xlsx_files/batch_import_model.xlsx"
 
         remote_accesses_validate = [
-            "cbw_object(id=33, type='CbwRam::RemoteAccess::Ssh::WithPassword', \
+            "cbw_object(id=1, type='CbwRam::RemoteAccess::Ssh::WithPassword', \
 address='10.0.2.15', port=22, is_valid=None, last_error=None, server_id=None, node_id=1)",
-            "cbw_object(id=34, type='CbwRam::RemoteAccess::Ssh::WithPassword', address='server02.example.com', \
+            "cbw_object(id=2, type='CbwRam::RemoteAccess::Ssh::WithPassword', address='server02.example.com', \
 port=22, is_valid=None, last_error=None, server_id=None, node_id=1)",
-            "cbw_object(id=35, type='CbwRam::RemoteAccess::Ssh::WithPassword', address='server01.example.com', port=22\
+            "cbw_object(id=3, type='CbwRam::RemoteAccess::Ssh::WithPassword', address='server01.example.com', port=22\
 , is_valid=None, last_error=None, server_id=None, node_id=1)"]
 
         with vcr.use_cassette('spec/fixtures/vcr_cassettes/'
